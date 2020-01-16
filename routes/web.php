@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'NasaController@index');
+Route::post('/post','NasaController@create')->name('get-images');
+
