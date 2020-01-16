@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Installation Composer
+
 Download and install Composer by following the <a href="https://getcomposer.org/download/">official instructions.</a> 
 
 For usage, see <a href="https://getcomposer.org/download/"> the documentation.</a>
+
+## Update composer.json 
+Run the following command to install this package: 
+```
+composer update
+```
