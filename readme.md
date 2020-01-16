@@ -32,3 +32,19 @@ QUEUE_DRIVER=database
 ```
 php artisan migrate
 ```
+## Flush and Start Queue
+Select From To date, click Flush button action is get picture https://api.nasa.gov save database to jobs table after start queue:work
+
+## How to start Queue?
+
+```
+php artisan queue:work
+```
+## How to listen Queue?
+
+```
+php artisan queue:listen
+```
+## Attention!!
+Please return back homepage ('/') manuel when queue work finished
+
