@@ -14,7 +14,7 @@ Download and install Composer by following the <a href="https://getcomposer.org/
 For usage, see <a href="https://getcomposer.org/download/"> the documentation.</a>
 
 ## Update composer.json 
-Run the following command to install this package: 
+Run the following command to install vendor folder: 
 ```
 composer update
 ```
