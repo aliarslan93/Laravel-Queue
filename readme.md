@@ -19,11 +19,16 @@ Run the following command to install this package:
 composer update
 ```
 
-##Laravel Environment
+## Laravel Environment
 env. File configuration must database connection
 
-##Laravel Queue configuration env. file
+## Laravel Queue configuration env. file
 ```
 QUEUE_DRIVER=database
 ```
 
+## The generated migration is imported.
+
+```
+php artisan migrate
+```
